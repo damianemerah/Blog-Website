@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav__content">
+          <p class="logo">ViewMe.</p>
+          <ul class="nav__list">
+            <li class="nav__nav nav__nav--selected">Home</li>
+            <li class="nav__nav">Pages</li>
+            <li class="nav__nav">Portfolio</li>
+            <li class="nav__nav">Blog</li>
+            <li class="nav__nav">Shop</li>
+            <li class="nav__nav">Lifestyle</li>
+            <li class="nav__nav nav__icon">
+              <img
+                class="dark-mood"
+                src="./Images/Vector-light.png"
+                alt="Dark screen"
+              />
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="sidebar">
+        <div class="sidebar__content">
+          <div class="sidebar__search-box">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Search.."
+            />
+            <label for="search">
+              <img
+                class="search__icon--dark"
+                src="./Images/Group 1.png"
+                alt="Dark screen"
+              />
+              <img
+                class="search__icon--light hidden"
+                src="./Images/Group 11.png"
+                alt="Light screen"
+              />
+            </label>
+          </div>
+          <div class="category">
+            <h2>Category</h2>
+            <ul class="category__list">
+              <li class="category__item">Culture</li>
+              <li class="category__item">Creativity</li>
+              <li class="category__item">Food</li>
+              <li class="category__item">Travel</li>
+              <li class="category__item">Humor</li>
+              <li class="category__item">Music</li>
+            </ul>
+          </div>
+          <div class="top-post">
+            <h2>Top Posts</h2>
+            <ul class="top-post__list">
+              <li class="top-post__item">
+                <p class="top-post__num">1</p>
+                <div>
+                  <h3 class="top-post__title">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </h3>
+                  <p class="top-post__date">Food Travel - Nov 17, 2022</p>
+                </div>
+              </li>
+              <li class="top-post__item">
+                <p class="top-post__num">2</p>
+                <div>
+                  <h3 class="top-post__title">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </h3>
+                  <p class="top-post__date">Food Travel - Nov 17, 2022</p>
+                </div>
+              </li>
+              <li class="top-post__item">
+                <p class="top-post__num">3</p>
+                <div>
+                  <h3 class="top-post__title">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </h3>
+                  <p class="top-post__date">Food Travel - Nov 17, 2022</p>
+                </div>
+              </li>
+              <li class="top-post__item">
+                <p class="top-post__num">4</p>
+                <div>
+                  <h3 class="top-post__title">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </h3>
+                  <p class="top-post__date">Food Travel - Nov 17, 2022</p>
+                </div>
+              </li>
+              <li class="top-post__item">
+                <p class="top-post__num">5</p>
+                <div>
+                  <h3 class="top-post__title">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </h3>
+                  <p class="top-post__date">Food Travel - Nov 17, 2022</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="image">
+            <h2>Images</h2>
+            <div class="image__box">
+              <img
+                class="image--1"
+                src="./Images/green-chameleon-s9CC2SKySJM-unsplash.jpg"
+                alt="Top post image"
+              />
+              <img
+                class="image--2"
+                src="./Images/clay-banks-GX8KBbVmC6c-unsplash.jpg"
+                alt="Top post image"
+              />
+              <img
+                class="image--3"
+                src="./Images/jacob-morch-T0_zDzxYvRM-unsplash.jpg"
+                alt="Top post image"
+              />
+              <img
+                class="image--4"
+                src="./Images/markus-spiske-RX-BevgxSXs-unsplash.jpg"
+                alt="Top post image"
+              />
+              <img
+                class="image--5"
+                src="./Images/library-of-congress-VLW29R51bio-unsplash.jpg"
+                alt="Top post image"
+              />
+              <img
+                class="image--6"
+                src="./Images/clay-banks-cisdc-344vo-unsplash.jpg"
+                alt="Top post image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="main">
+        <div class="card card--1">
+          <div class="card__img-box">
+            <img
+              src="./Images/charlesdeluvio-FdDkfYFHqe4-unsplash (1).jpg"
+              alt="Post Image"
+              class="card__img card__img--1"
+            />
+          </div>
+          <div class="card__content card__content--1">
+            <p class="card__detail">Food Travel - Nov 17, 2022</p>
+            <h2 class="card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h2>
+            <p class="card__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+              optio eligendi dolore sed, consectetur aliquam nesciunt aut,
+              explicabo deserunt voluptatem omnis voluptas aperiam?
+            </p>
+          </div>
+        </div>
+        <div class="card card--2">
+          <div class="card__img-box">
+            <img
+              src="./Images/brooke-cagle-n4pP64Jhd4w-unsplash.jpg"
+              alt="Post Image"
+              class="card__img card__img--2"
+            />
+          </div>
+          <div class="card__content card__content--2">
+            <p class="card__detail">Food Travel - Nov 17, 2022</p>
+            <h2 class="card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h2>
+            <p class="card__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+              optio eligendi dolore sed, consectetur aliquam nesciunt aut,
+              explicabo deserunt voluptatem omnis voluptas aperiam?
+            </p>
+          </div>
+        </div>
+        <div class="card card--3">
+          <div class="card__img-box card__img-box--3">
+            <img
+              src="./Images/sour-moha-asdvJ7mum3k-unsplash.jpg"
+              alt="Post Image"
+              class="card__img card__img--3"
+            />
+          </div>
+          <div class="card__content card__content--3">
+            <div class="play">
+              <img src="/Images/Polygon 1.png" alt="" />
+            </div>
+            <p class="card__detail">Food Travel - Nov 17, 2022</p>
+            <h2 class="card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h2>
+            <p class="card__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+              optio eligendi dolore sed, consectetur aliquam nesciunt aut,
+              explicabo deserunt voluptatem omnis voluptas aperiam?
+            </p>
+          </div>
+        </div>
+        <div class="card card--4">
+          <div class="card__img-box">
+            <img
+              src="/Images/krakenimages-376KN_ISplE-unsplash.jpg"
+              alt="Post Image"
+              class="card__img card__img--4"
+            />
+          </div>
+          <div class="card__content card__content--4">
+            <p class="card__detail">Food Travel - Nov 17, 2022</p>
+            <h2 class="card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h2>
+            <p class="card__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+              optio eligendi dolore sed, consectetur aliquam nesciunt aut,
+              explicabo deserunt voluptatem omnis voluptas aperiam?
+            </p>
+          </div>
+        </div>
+        <div class="card card--5">
+          <div class="card__img-box">
+            <img
+              src="/Images/absolutvision-WYd_PkCa1BY-unsplash.jpg"
+              alt="Post Image"
+              class="card__img card__img--5"
+            />
+          </div>
+          <div class="card__content card__content--5">
+            <p class="card__detail">Food Travel - Nov 17, 2022</p>
+            <h2 class="card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h2>
+            <p class="card__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+              optio eligendi dolore sed, consectetur aliquam nesciunt aut,
+              explicabo deserunt voluptatem omnis voluptas aperiam?
+            </p>
+          </div>
+        </div>
+      </main>
+      <div class="page-count">
+        <button class="page-count__btn page-count__btn--selected">1</button>
+        <button class="page-count__btn">2</button>
+        <button class="page-count__btn">3</button>
+        <button class="page-count__btn">4</button>
+        <button class="page-count__btn">5</button>
+      </div>
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="footer__logo-box">
+            <p class="logo">ViewMe.</p>
+            <p class="footer__copyright">@ 2022 Springtune</p>
+          </div>
+          <div class="footer__about">
+            <h2>About us</h2>
+            <ul class="footer__about-list">
+              <li class="footer__about-item">Lorem, ipsum dolor.</li>
+              <li class="footer__about-item">Loremipdolor.</li>
+              <li class="footer__about-item">Lorem ipsumdolor.</li>
+              <li class="footer__about-item">Logalaktigdolor.</li>
+            </ul>
+          </div>
+          <div class="footer__product">
+            <h2>Product</h2>
+            <ul class="footer__product-list">
+              <li class="footer__product-item">Lorem, ipsum dolor.</li>
+              <li class="footer__product-item">Loremipdolor.</li>
+              <li class="footer__product-item">Lorem ipsumdolor.</li>
+              <li class="footer__product-item">Logalaktigdolor.</li>
+            </ul>
+          </div>
+          <div class="footer__contact">
+            <h2>Contact us</h2>
+            <p class="footer__contact-email">damianemerah@gmail.com</p>
+            <p>+2347066765698</p>
+            <div class="footer__contact-icon footer__contact-icon--light">
+              <img src="/Images/instagram.png" alt="Instagram" />
+              <img src="/Images/Vector.png" alt="facebook" />
+              <img src="/Images/Vector-1.png" alt="Twitter" />
+            </div>
+            <div class="footer__contact-icon footer__contact-icon--dark hidden">
+              <img src="/Images/icon-dark/instagram.png" alt="Instagram" />
+              <img src="/Images/icon-dark/Vector.png" alt="facebook" />
+              <img src="/Images/icon-dark/Vector-1.png" alt="Twitter" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
